@@ -535,7 +535,7 @@ a{
 
 
 
-@media (max-width: 600px){
+@media (max-width: 768px){
     body {
         position: relative;
         background: url('travnik.jpg') no-repeat center center/cover;
