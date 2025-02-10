@@ -1,0 +1,1030 @@
+body {
+    position: relative;
+    background: url('travnik.jpg') no-repeat center center/cover;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+    z-index: -1;
+}
+#main1{
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 10px grey;
+    top: 0;
+    z-index: 1000000000;
+    opacity: 0.8;
+}
+#mainlabel{
+    position: fixed;
+    font-family: cursive;
+    font-size: 55px;
+    margin-left: 630px;
+    color: black;
+}
+#option1{
+    position: fixed;
+    font-family: cursive;
+    font-size: 27px;
+    margin-top: 70px;
+    margin-left: 330px;
+    color: grey;
+    cursor: pointer;
+}
+#option2{
+    position: fixed;
+    font-family: cursive;
+    font-size: 27px;
+    margin-top: 70px;
+    margin-left: 470px;
+    color: grey;
+    cursor: pointer;
+}
+#option3{
+    position: fixed;
+    font-family: cursive;
+    font-size: 27px;
+    margin-top: 70px;
+    margin-left: 680px;
+    color: grey;
+    cursor: pointer;
+}
+#option4{
+    position: fixed;
+    font-family: cursive;
+    font-size: 27px;
+    margin-top: 70px;
+    margin-left: 870px;
+    color: grey;
+    cursor: pointer;
+}
+#nameee{
+    position: fixed;
+    width: 150px;
+    height: 60px;
+    margin-left: 470px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#knjiga1{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-top: 25px;
+    margin-left: 25px;
+    opacity: 1;
+    box-shadow: 15px 15px 0px 0px grey;
+}
+#Slastdove{
+    position: absolute;
+    color: black;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    margin-left: 370px;
+    font-weight: bolder;
+}
+#bookdes1{
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    margin-left: 370px;
+    line-height: 20px;
+}
+#right{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 370px;
+    margin-left: 990px;
+    z-index: 100;
+}
+#left{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 370px;
+    margin-left: 160px;
+    z-index: 100;
+}
+#knigadiv{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+
+
+
+#knigadiv1{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 200px;
+    display: none;
+}
+#knjiga2{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-top: 25px;
+    margin-left: 25px;
+    opacity: 1;
+    box-shadow: 15px 15px 0px 0px grey;
+}
+#Namazradostokamoga{
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    margin-left: 370px;
+    font-weight: bolder;
+}
+#bookdes2{
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 110px;
+    margin-left: 370px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+#knigadiv2{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+#knjiga3{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-top: 25px;
+    margin-left: 25px;
+    opacity: 1;
+    box-shadow: 15px 15px 0px 0px grey;
+}
+#intime{
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    margin-left: 370px;
+    font-weight: bolder;
+}
+#bookdes3{
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 110px;
+    margin-left: 370px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#knigadiv3{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+#knjiga4{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-top: 25px;
+    margin-left: 25px;
+    opacity: 1;
+    box-shadow: 15px 15px 0px 0px grey;
+}
+#Prirucnik{
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    margin-left: 370px;
+    font-weight: bolder;
+}
+#bookdes4{
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 110px;
+    margin-left: 370px;
+    line-height: 20px;
+}
+
+
+
+#biografija{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    margin-top: 670px;
+    background-color: white;
+}
+#biophoto{
+    position: absolute;
+    width: 430px;
+    height: 530px;
+    margin-top: 90px;
+    margin-left: 80px;
+    box-shadow: 15px 15px 0px 0px rgb(219, 152, 27);
+}
+#line{
+    position: absolute;
+    background-color: rgb(219, 152, 27);
+    width: 5px;
+    height: 550px;
+    margin-top: 90px;
+    margin-left: 600px;
+}
+#biography{
+    position: absolute;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 90px;
+    margin-left: 640px;
+    line-height: 25px;
+}
+#predavanja{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin-top: 1370px;
+    background-color: rgb(219, 152, 27);
+    flex-direction: row;
+}
+#predavanje1{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 1px 1px grey;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+#tumbnail1{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+}
+#predavanjtitle1{
+    position: absolute;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: 201px;
+    margin-left: 10px;
+}
+#watchpredavanje1{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(219, 152, 27);
+    color: white;
+    border: 1px solid white;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+#watchpredavanje1:hover{
+    background-color: rgb(110, 74, 7);
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+#predavanje2{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 1px 1px grey;
+    margin-top: 50px;
+    margin-left: 460px;
+}
+#tumbnail2{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+}
+#predavanjtitle2{
+    position: absolute;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: 201px;
+    margin-left: 10px;
+}
+#watchpredavanje2{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(219, 152, 27);
+    color: white;
+    border: 1px solid white;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+#watchpredavanje2:hover{
+    background-color: rgb(110, 74, 7);
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#predavanje3{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 1px 1px grey;
+    margin-top: 50px;
+    margin-left: 900px;
+    flex-direction: row;
+}
+#tumbnail3{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+}
+#predavanjtitle3{
+    position: absolute;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: 201px;
+    margin-left: 50px;
+}
+#watchpredavanje3{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(219, 152, 27);
+    color: white;
+    border: 1px solid white;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+#watchpredavanje3:hover{
+    background-color: rgb(110, 74, 7);
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#contact{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(61, 57, 57);
+    margin-top: 1760px;
+}
+#elvedinpzc{
+    position: absolute;
+    width: 500px;
+    height: 110px;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+#elvedinpzc1{
+    position: absolute;
+    font-family: cursive;
+    font-size: 80px;
+    margin-left: 770px;
+    color: white;
+    margin-top: 35px;
+}
+#contact1{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 280px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+#contact2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 280px;
+    margin-left: 600px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#contact3{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    margin-top: 280px;
+    margin-left: 950px;
+    cursor: pointer;
+}
+#copyright{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 420px;
+    margin-left: 470px;
+}
+#buy{
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    background-color: rgb(219, 152, 27);
+    color: white;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: 450px;
+    border-radius: 10px;
+}
+#buy:hover{
+    background-color: rgb(110, 74, 7);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px){
+    body {
+        position: relative;
+        background: url('travnik.jpg') no-repeat center center/cover;
+        height: 100vh;
+        margin: 0;
+        overflow-x: hidden;
+        background-attachment: fixed;
+    }
+    
+    body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1000%;
+        background: rgba(0, 0, 0, 0.6); 
+        z-index: -1;
+    }
+    #main1{
+        position: fixed;
+        width: 100%;
+        height: 110px;
+        left: 0;
+        background-color: white;
+        box-shadow: 0 4px 10px grey;
+        top: 0;
+        z-index: 1000000000;
+        opacity: 0.8;
+    }
+    #mainlabel{
+        position: fixed;
+        font-family: cursive;
+        font-size: 55px;
+        margin-left: 270px;
+        color: black;
+    }
+    #option1{
+        position: fixed;
+        font-family: cursive;
+        font-size: 20px;
+        margin-top: 70px;
+        margin-left: 40px;
+        color: grey;
+        cursor: pointer;
+    }
+    #option2{
+        position: fixed;
+        font-family: cursive;
+        font-size: 20px;
+        margin-top: 70px;
+        margin-left: 130px;
+        color: grey;
+        cursor: pointer;
+    }
+    #option3{
+        position: fixed;
+        font-family: cursive;
+        font-size: 20px;
+        margin-top: 70px;
+        margin-left: 250px;
+        color: grey;
+        cursor: pointer;
+    }
+    #option4{
+        position: fixed;
+        font-family: cursive;
+        font-size: 20px;
+        margin-top: 70px;
+        margin-left: 390px;
+        color: grey;
+        cursor: pointer;
+    }
+    #nameee{
+        position: fixed;
+        width: 150px;
+        height: 60px;
+        margin-left: 100px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    #knjiga1{
+        position: absolute;
+        width: 300px;
+        height: 400px;
+        margin-top: 100px;
+        margin-left: 25px;
+        opacity: 1;
+        box-shadow: 15px 15px 0px 0px grey;
+    }
+    #Slastdove{
+        position: absolute;
+        color: black;
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-weight: bolder;
+    }
+    #bookdes1{
+        position: absolute;
+        font-size: 18px;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 550px;
+        margin-left: 50px;
+        line-height: 20px;
+    }
+    #right{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: 370px;
+        margin-left: 420px;
+        z-index: 100;
+    }
+    #left{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: 370px;
+        margin-left: 40px;
+        z-index: 100;
+    }
+    #knigadiv{
+        position: absolute;
+        width: 350px;
+        height: 1100px;
+        background-color: white;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+    
+    
+    
+    
+    #knigadiv1{
+        position: absolute;
+        width: 350px;
+        height: 1100px;
+        background-color: white;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+    #knjiga2{
+        position: absolute;
+        width: 300px;
+        height: 400px;
+        margin-top: 100px;
+        margin-left: 25px;
+        opacity: 1;
+        box-shadow: 15px 15px 0px 0px grey;
+    }
+    #Namazradostokamoga{
+        position: absolute;
+        color: black;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 40px;
+        margin-left: 370px;
+        font-weight: bolder;
+    }
+    #bookdes2{
+        position: absolute;
+        font-size: 18px;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 550px;
+        margin-left: 50px;
+        line-height: 20px;
+    }
+    
+    
+    
+    
+    
+    
+    #knigadiv2{
+        position: absolute;
+        width: 350px;
+        height: 1100px;
+        background-color: white;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+    #knjiga3{
+        position: absolute;
+        width: 300px;
+        height: 400px;
+        margin-top: 100px;
+        margin-left: 25px;
+        opacity: 1;
+        box-shadow: 15px 15px 0px 0px grey;
+    }
+    #intime{
+        position: absolute;
+        color: black;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 40px;
+        margin-left: 370px;
+        font-weight: bolder;
+    }
+    #bookdes3{
+        position: absolute;
+        font-size: 18px;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 550px;
+        margin-left: 50px;
+        line-height: 20px;
+    }
+    
+    
+    
+    #knjiga4{
+        position: absolute;
+        width: 300px;
+        height: 400px;
+        margin-top: 100px;
+        margin-left: 25px;
+        opacity: 1;
+        box-shadow: 15px 15px 0px 0px grey;
+    }
+    #Prirucnik{
+        position: absolute;
+        color: black;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-weight: bolder;
+    }
+    #bookdes4{
+        position: absolute;
+        font-size: 18px;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 550px;
+        margin-left: 50px;
+        line-height: 20px;
+    }
+    #knigadiv3{
+        position: absolute;
+        width: 350px;
+        height: 1100px;
+        background-color: white;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+    
+    
+    #biografija{
+        position: absolute;
+        width: 100%;
+        height: 1100px;
+        margin-top: 1200px;
+        background-color: white;
+    }
+    #biophoto{
+        position: absolute;
+        width: 300px;
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 100px;
+        box-shadow: 15px 15px 0px 0px rgb(219, 152, 27);
+    }
+    #line{
+        position: absolute;
+        background-color: rgb(219, 152, 27);
+        width: 400px;
+        height: 5px;
+        margin-top: 480px;
+        margin-left: 55px;
+    }
+    #biography{
+        position: absolute;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 500px;
+        margin-left: 50px;
+        line-height: 25px;
+    }
+    #predavanja{
+        position: absolute;
+        width: 100%;
+        height: 700px;
+        background-color: white;
+        margin-top: 2300px;
+        background-color: rgb(219, 152, 27);
+        flex-direction: row;
+    }
+    #predavanje1{
+        position: absolute;
+        width: 350px;
+        height: 300px;
+        background-color: white;
+        box-shadow: 0px 0px 1px 1px grey;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    #tumbnail1{
+        position: absolute;
+        width: 350px;
+        height: 200px;
+    }
+    #predavanjtitle1{
+        position: absolute;
+        font-size: 23px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        margin-top: 201px;
+        margin-left: 10px;
+    }
+    #watchpredavanje1{
+        position: absolute;
+        width: 150px;
+        height: 40px;
+        background-color: rgb(219, 152, 27);
+        color: white;
+        border: 1px solid white;
+        font-size: 25px;
+        border-radius: 10px;
+        margin-top: 250px;
+        margin-left: 100px;
+    }
+    #watchpredavanje1:hover{
+        background-color: rgb(110, 74, 7);
+        cursor: pointer;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    #predavanje2{
+        position: absolute;
+        width: 350px;
+        height: 300px;
+        background-color: white;
+        box-shadow: 0px 0px 1px 1px grey;
+        margin-top: 400px;
+        margin-left: 80px;
+    }
+    #tumbnail2{
+        position: absolute;
+        width: 350px;
+        height: 200px;
+    }
+    #predavanjtitle2{
+        position: absolute;
+        font-size: 23px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        margin-top: 201px;
+        margin-left: 10px;
+    }
+    #watchpredavanje2{
+        position: absolute;
+        width: 150px;
+        height: 40px;
+        background-color: rgb(219, 152, 27);
+        color: white;
+        border: 1px solid white;
+        font-size: 25px;
+        border-radius: 10px;
+        margin-top: 250px;
+        margin-left: 100px;
+    }
+    #watchpredavanje2:hover{
+        background-color: rgb(110, 74, 7);
+        cursor: pointer;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    #predavanje3{
+        position: absolute;
+        width: 350px;
+        height: 300px;
+        background-color: white;
+        box-shadow: 0px 0px 1px 1px grey;
+        margin-top: 400px;
+        margin-left: 80px;
+        flex-direction: row;
+    }
+    #tumbnail3{
+        position: absolute;
+        width: 350px;
+        height: 200px;
+    }
+    #predavanjtitle3{
+        position: absolute;
+        font-size: 23px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        margin-top: 201px;
+        margin-left: 50px;
+    }
+    #watchpredavanje3{
+        position: absolute;
+        width: 150px;
+        height: 40px;
+        background-color: rgb(219, 152, 27);
+        color: white;
+        border: 1px solid white;
+        font-size: 25px;
+        border-radius: 10px;
+        margin-top: 250px;
+        margin-left: 100px;
+    }
+    #watchpredavanje3:hover{
+        background-color: rgb(110, 74, 7);
+        cursor: pointer;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    #contact{
+        position: absolute;
+        width: 100%;
+        height: 450px;
+        background-color: rgb(61, 57, 57);
+        margin-top: 3000px;
+    }
+    #elvedinpzc{
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+    #elvedinpzc1{
+        position: absolute;
+        font-family: cursive;
+        font-size: 60px;
+        margin-left: 300px;
+        color: white;
+        margin-top: 10px;
+    }
+    #contact1{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: 240px;
+        margin-left: 100px;
+        cursor: pointer;
+    }
+    #contact2{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: 240px;
+        margin-left: 230px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    #contact3{
+        position: absolute;
+        width: 60px;
+        height: 50px;
+        margin-top: 240px;
+        margin-left: 360px;
+        cursor: pointer;
+    }
+    #copyright{
+        position: absolute;
+        font-size: 10px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 430px;
+        margin-left: 120px;
+    }
+    #buy{
+        position: absolute;
+        width: 120px;
+        height: 40px;
+        background-color: rgb(219, 152, 27);
+        color: white;
+        border: 1px solid black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        margin-left: 115px;
+        margin-top: 980px;
+        border-radius: 10px;
+    }
+}
+
