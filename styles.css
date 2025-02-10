@@ -515,8 +515,9 @@ a{
     background-color: rgb(110, 74, 7);
     cursor: pointer;
 }
-
-
+#onlydesktop{
+    display: none;
+}
 
 
 
@@ -570,7 +571,7 @@ a{
         position: fixed;
         font-family: cursive;
         font-size: 55px;
-        margin-left: 270px;
+        margin-left: 190px;
         color: black;
     }
     #option1{
@@ -613,7 +614,7 @@ a{
         position: fixed;
         width: 150px;
         height: 60px;
-        margin-left: 100px;
+        margin-left: 50px;
         margin-top: 10px;
         cursor: pointer;
     }
@@ -1025,6 +1026,21 @@ a{
         margin-left: 115px;
         margin-top: 980px;
         border-radius: 10px;
+    }
+    #onlydesktop{
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index: 100000000000000000000000000;
+    }    
+    #labelfordesktop{
+        position: fixed;
+        font-size: 25px;
+        color: white;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
 
